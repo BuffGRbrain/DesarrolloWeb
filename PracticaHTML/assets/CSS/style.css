@@ -1,2 +1,12 @@
-body { background-image: url("../images/maxresdefault.jpg"); background-repeat: no-repeat;}
-h1 { background-color: #FC9804; }
+body{
+  margin: 0;
+  width: auto;
+  height: 0;
+}
+
+body { background-image: url("../images/maxresdefault.jpg"); background-repeat: repeat-y;}
+h1 { background-color: #FC9804; 
+      color: aquamarine;
+}
+
+p {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
