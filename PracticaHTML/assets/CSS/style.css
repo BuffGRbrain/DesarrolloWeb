@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
 body{
   margin: 0;
   width: auto;
   height: 0;
 }
 
-body { background-image: url("../images/maxresdefault.jpg"); background-repeat: repeat-y;}
+body { background-image: url("../images/maxresdefault.jpg"); width: auto; height: 300px;}
 h1 { background-color: #FC9804; 
       color: aquamarine;
+      font-family: 'Inclusive Sans', sans-serif;
+      font-style: oblique;
+      font-weight: lighter;
+
 }
 
 p {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
