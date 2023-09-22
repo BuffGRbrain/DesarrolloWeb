@@ -25,6 +25,7 @@ Esto es para poner la imagen en el centro y el texto al lado
 */ 
 
 table{
+    align-self: center;
     align-content: center;
     border: 4px solid black; /* Podemos darle varias propiedades de esta forma */
     background-color: beige;
