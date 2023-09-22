@@ -12,4 +12,15 @@ image{
     align-content: center;
 }
 
+ul{
+    font-size: 24px;
+    font-weight: 700;
+    color:#7fbec5;
+    list-style-image: url(../bxs-ghost.svg);
+    height: min-content;
+}
 
+/* Si la foto es muy grande usamos una más corta, 
+ya que no debe romper el espacio entre lineas 
+para solucionarlo la redimensionamos. Usando páginas en linea, atributos de la imagen o paint.
+*/
