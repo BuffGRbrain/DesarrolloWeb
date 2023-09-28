@@ -1,0 +1,26 @@
+h1{
+    color: white;
+    text-align: left;
+}
+
+table{
+    border: 4px dashed #fafb34;
+    width: 100%;
+    background:#18a484;
+    padding-left: 15px; 
+}
+
+td,th{
+    padding-left: 15px;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+}
+
+span{
+    color: #fafb34;
+    font-weight: bold;
+    text-decoration: underline;
+}
