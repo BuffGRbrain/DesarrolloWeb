@@ -24,3 +24,9 @@ span{
     font-weight: bold;
     text-decoration: underline;
 }
+
+.homero{
+    font-style:italic;
+    text-decoration:underline;
+    color:#FCFC34;
+}
