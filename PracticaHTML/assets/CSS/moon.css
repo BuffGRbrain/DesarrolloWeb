@@ -59,3 +59,54 @@ body{
     float: left;
     margin-right: 20px;
 }
+
+.boton{
+    width: 120px;
+    background-color: blue;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.boton a{
+    color: #fff;
+}
+
+.boton:hover{
+    background-color: #ff0000;
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition-timing-function:cubic-bezier(1, 0, 0, 1);
+    transition-delay: 1s;
+}
+/* Caja foto */
+.cajaprincipal{
+    width: 270px;
+    height: 350px;
+    background-color: black;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+    overflow: hidden;
+}
+
+.encabezado{
+    background-color: white;
+    color: #000000;
+    font-family: 'Fredoka One', cursive;
+    padding: 20px 0px;
+}
+
+/* Caja info */
+.cajaperfi:hover{
+    width: 540px;
+    transform: translateX(-270px);
+    transition: transform 2s linear 1s;
+}
+
+.foto, .datos{
+    width: 270px;
+    text-align: center;
+    margin: 20px 0px;
+    float:left;
+}
