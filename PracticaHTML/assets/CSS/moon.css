@@ -98,15 +98,31 @@ body{
 }
 
 /* Caja info */
-.cajaperfi:hover{
+.cajaperfil:hover{
     width: 540px;
     transform: translateX(-270px);
     transition: transform 2s linear 1s;
 }
 
-.foto, .datos{
+.foto{
     width: 270px;
     text-align: center;
     margin: 20px 0px;
-    float:left;
+    float: left;
+}
+
+.foto img{
+    width: 150px;
+    border: 5px solid white;
+    border-radius: 100%;
+}
+
+.datos{
+    text-align: center;
+}
+
+.datos img{
+    width: 200px;
+    border: 5px solid black;
+    padding: 20px 0px;
 }
