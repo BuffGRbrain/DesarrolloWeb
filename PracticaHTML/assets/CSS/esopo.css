@@ -1,0 +1,66 @@
+/* 
+h1{
+    color: white;
+    text-align: left;
+}
+
+table{
+    border: 4px dashed #fafb34;
+    width: 100%;
+    background:#18a484;
+    padding-left: 15px; 
+}
+
+td,th{
+    padding-left: 15px;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+}
+
+span{
+    color: #fafb34;
+    font-weight: bold;
+    text-decoration: underline;
+}
+*/
+.homero{
+    font-style:italic;
+    text-decoration:underline;
+    color:#FCFC34;
+}
+
+/*Queremos no hacer uso de las tablas con esto*/
+.esopo{
+    width: 800px;
+    background-color: #18a484;
+    margin: 50px auto;
+    border: 4px dashed #fafb34;
+    padding: 30px 30px 30px 30px; /*top right bottom left */
+    color:white;
+}
+/*Para todo h1 dentro de la clase esopo*/
+
+.esopo h1{
+    color: white;
+    text-align: left;
+}
+
+.esopo img{
+    float: left;
+    width: 120px;
+    padding: 10px;
+}
+
+.esopo p{
+    color: white;
+    font-weight: bold;
+}
+
+.esopo span{
+    color: #fafb34;
+    font-weight: bold;
+    text-decoration: underline;
+}
