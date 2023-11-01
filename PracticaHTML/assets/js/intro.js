@@ -7,23 +7,22 @@
 
 //usar back comillas `` o no funciona la inclusión de variables.
 
-let a;
-let b, resultado;
 
-a = parseInt(prompt("Digite el primero num: "))
-
-b = parseInt(prompt("Difite el segundo num: "))
-
-resultado = a+b;
-
-console.log(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
-console.info(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
 // recordar usar === para identico y == para igual.
 //console.info()
 //console.warn() para que saque warning
 //console.error() para que saque el mensaje como error
 //console.clear() o Ctrl+r
 //prompt para pedir input
+
+function sumarDos(){
+    let a,b, resultado;
+    a = parseInt(prompt("Digite el primero num: "))
+    b = parseInt(prompt("Difite el segundo num: "))
+    resultado = a+b;
+    console.log(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
+    console.info(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
+}
 
 
 
