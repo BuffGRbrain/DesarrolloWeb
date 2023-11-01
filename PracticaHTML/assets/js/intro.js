@@ -15,15 +15,36 @@
 //console.clear() o Ctrl+r
 //prompt para pedir input
 
-function sumarDos(){
-    let a,b, resultado;
-    a = parseInt(prompt("Digite el primero num: "))
-    b = parseInt(prompt("Difite el segundo num: "))
+//Tarea hacer una calculadora básica con módulo y solo se piden los números una vez
+
+a = parseInt(prompt("Digite el primero num: "))
+b = parseInt(prompt("Difite el segundo num: "))
+ope = prompt("Ingrese la operación a realizar")
+
+function calculadora(a,b,ope){//Pendiente pasar a una clase
+    if (ope == "+") {//Puede ser mejor en un switch case revisar
+        sumarDos(a,b);
+    }
+
+    
+
+}
+
+function sumarDos(a,b){
+    let resultado;
+    
     resultado = a+b;
     console.log(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
     console.info(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
 }
 
+function restarDos(a,b){
+    let resultado;
+    
+    resultado = a+b;
+    console.log(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
+    console.info(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
+}
 
 
 
