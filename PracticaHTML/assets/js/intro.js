@@ -26,8 +26,6 @@ function calculadora(a,b,ope){//Pendiente pasar a una clase
         sumarDos(a,b);
     }
 
-    
-
 }
 
 function sumarDos(a,b){
@@ -46,5 +44,28 @@ function restarDos(a,b){
     console.info(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
 }
 
+function multiplicarDos(a,b){
+    let resultado;
+    
+    resultado = a*b;
+    console.log(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
+    console.info(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
+}
+
+function dividirDos(a,b){
+    let resultado;
+    
+    resultado = a*b;
+    console.log(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
+    console.info(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
+}
+
+function moduloDos(a,b){
+    let resultado;
+    
+    resultado = a%b;
+    console.log(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
+    console.info(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
+}
 
 
