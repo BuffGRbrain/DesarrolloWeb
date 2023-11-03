@@ -18,12 +18,18 @@ function juegoMoneda(){
     let saldo = 0
     saldo = nuevoSaldo(saldo,valorRecargado)
     let cambio = 0
-    while(1 === 1){  
+    let whiler = true
+    while(whiler){  
         let valorElegido = parseInt(prompt(`Ingrese 1 o 2 para cara o sello`))
         let valorReal = lanzarmoneda()
-        valorElegido == valorReal ? cambio = .5*valorRecargado : cambio = -0.2*valorRecargado
+        let valorApostado = parseInt(prompt("Cuanto quieres apostar en porcentaje"))*saldo
+        
+        valorElegido == valorReal ? cambio = .5*valorApostado : cambio = -0.2*valorApostado
         saldo = nuevoSaldo(saldo,cambio)
         cambio > 0 ? alert(`Ganaste ${cambio} y tu nuevo saldo es ${saldo}`) : alert(`Perdiste ${cambio} y tu nuevo saldo es ${saldo}`)
+        
+        let deci = prompt("¿Quieres seguir jugando?")
+        deci == "si" ? whiler = true : whiler=false
     }
 }
 
