@@ -17,15 +17,27 @@
 
 //Tarea hacer una calculadora básica con módulo y solo se piden los números una vez
 
-a = parseInt(prompt("Digite el primero num: "))
-b = parseInt(prompt("Difite el segundo num: "))
-ope = prompt("Ingrese la operación a realizar")
+a = parseFloat(prompt("Digite el primero num: "))
+b = parseFloat(prompt("Digite el segundo num: "))
+ope = String(prompt("Ingrese la operación a realizar"))
+prompt(`La operación seleccionada fue ${ope}`)
+calculadora(a,b,ope)
 
-function calculadora(a,b,ope){//Pendiente pasar a una clase
-    if (ope == "+") {//Puede ser mejor en un switch case revisar
-        sumarDos(a,b);
+function calculadora(a,b,ope){//Da un error de undefined en resultado y es pq no entra en ningun caso del switch
+    let resultado;
+    switch(ope){
+        case ope == "+":
+            resultado = a+b
+        case ope == "-":
+            resultado = a-b
+        case ope == "*":
+            resultado = a*b
+        case ope == "/":
+            resultado = a/b
+        case ope == "%":
+            resultado = a%b
     }
-
+    console.log(`El resultado de la operación ${ope} de ${a} y ${b} es:  ${resultado}`)
 }
 
 function sumarDos(a,b){
@@ -39,7 +51,7 @@ function sumarDos(a,b){
 function restarDos(a,b){
     let resultado;
     
-    resultado = a+b;
+    resultado = a-b;
     console.log(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
     console.info(`El resultado de la suma de ${a} y ${b} es:  ${resultado}`)
 }
